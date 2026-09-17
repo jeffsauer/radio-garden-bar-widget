@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "com.darkhorse-studios.radio-garden-bar-widget",
+  "name": "Radio Garden",
+  "version": "1.0.0",
+  "author": "jsauer",
+  "description": "Launch and toggle the Radio Garden web app on a special (scratchpad) workspace, like a dropdown window.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "RadioGardenWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Radio Garden",
+    "description": "Show/hide Radio Garden as a dropdown via the special:radiogarden scratchpad.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "url": "https://radio.garden"
+    },
+    "schema": [
+      {
+        "key": "url",
+        "type": "string",
+        "label": "radio garden url",
+        "description": "URL opened by omarchy-launch-webapp for the Radio Garden web app.",
+        "defaultValue": "https://radio.garden"
+      }
+    ]
+  }
+}
