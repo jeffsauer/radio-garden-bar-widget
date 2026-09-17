@@ -1,7 +1,9 @@
 <img width="1535" height="849" alt="radio-garden-bar-widget" src="https://github.com/user-attachments/assets/9230d8e9-bb03-4e66-a221-e9d7f2e0f75a" />
 
 # radio-garden-bar-widget
-Omarchy bar widget to toggle (i.e. show/hide) Radio Garden web application visibility using a hyprland scratchpad workspace.
+Omarchy bar widget to toggle (i.e. show/hide) [Radio Garden web application](https://radio.garden) visibility using a hyprland scratchpad workspace.
+
+This app is in no way associated with Radio Garden, it is just a helper widget to utilize Radio Garden in Omarchy in a friendly and convenient way.
 
 To install, use the following command:
 
